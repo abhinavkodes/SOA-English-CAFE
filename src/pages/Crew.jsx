@@ -62,7 +62,7 @@ const techTeam = [
   { name: "Pranjal Choudhury", role: "Frontend Developer", img: pranjalImg, quote: `As you sow, so shall you reap.` },
   { name: "Sriya Sahoo", role: "Backend Developer", img: sriyaImg, quote: `Remember, you're the one who can fill the world with sunshine` },
   { name: "Shubham Kumar", role: "Frontend Developer", img: shubhamImg, quote: `The things we do, do things to us.` },
-  {name:"Ayush Sharma",role: "Contributor", img: ayushshImg , quote:`Special thanks to our former member`},
+  {name:"Ayush Sharma",role: "Ex-Contributor", img: ayushshImg , quote:`Special thanks from the SEC Tech Team to our former member`},
 ];
 
 const contentTeam = [
@@ -108,7 +108,7 @@ function Crew() {
     <section className="page">
       <div className="crew-wrapper">
         <p className="crew-quote-top">
-          “The strength of the SEC is each individual member, the strength of each member is the SEC.”
+          “The strength of SEC is each individual member and the strength of each member is SEC.”
         </p>
 
         <TeamPanel title="Secretariat" members={secretariat} />
