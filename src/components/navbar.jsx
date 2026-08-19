@@ -14,7 +14,7 @@ function Navbar() {
         <ul className="nav-left desktop-only">
           <li><Link to="/events">Events</Link></li>
           <li><Link to="/newsletter">Newsletters</Link></li>
-          <li><Link to="/alum">Founders</Link></li>
+          <li><Link to="/Founder">Founders</Link></li>
         </ul>
 
         {/* LOGO */}
@@ -44,7 +44,7 @@ function Navbar() {
           <div className="mobile-menu">
             <Link to="/events" onClick={() => setMenuOpen(false)}>Events</Link>
             <Link to="/newsletter" onClick={() => setMenuOpen(false)}>Newsletters</Link>
-            <Link to="/alum" onClick={() => setMenuOpen(false)}>Founders</Link>
+            <Link to="/Founder" onClick={() => setMenuOpen(false)}>Founders</Link>
             <Link to="/crew" onClick={() => setMenuOpen(false)}>Crew</Link>
             <Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
             <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
