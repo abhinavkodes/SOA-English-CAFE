@@ -58,7 +58,6 @@ const secretariat = [
 ];
 
 const techTeam = [
-  { name: "Dibyashree Sahoo", role: "Backend Developer", img: dibyashreeImg, quote: `Soft chaos` },
   { name: "Pranjal Choudhury", role: "Frontend Developer", img: pranjalImg, quote: `As you sow, so shall you reap.` },
   { name: "Sriya Sahoo", role: "Backend Developer", img: sriyaImg, quote: `Remember, you're the one who can fill the world with sunshine` },
   { name: "Shubham Kumar", role: "Frontend Developer", img: shubhamImg, quote: `The things we do, do things to us.` },
@@ -66,6 +65,7 @@ const techTeam = [
 ];
 
 const contentTeam = [
+  { name: "Dibyashree Sahoo", role: "Content Team Member", img: dibyashreeImg, quote: `Soft chaos` },
   { name: "Aishee Mukhopadhyay", role: "Content Team Member", img: aisheeImg, quote: `Look like an innocent flower, but be the serpent under it. — William Shakespeare` },
   { name: "Anshika Anand", role: "Content Team Member", img: anshikaImg, quote: `Strive not to be a success but rather to be of value.` },
   { name: "Aratrika Chaudhury", role: "Content Team Member", img: aratrikaImg, quote: `Stars shine the brightest on the darkest nights.` },
